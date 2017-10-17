@@ -85,7 +85,7 @@ export default class App extends Component {
       <IntlProvider locale={language}>
         <Provider store={store}>
           <Router history={history}>
-            <div className="container">
+            <div className="">
               <div className="row">
                 <Switch className="row">
                   <Route
